@@ -9,7 +9,7 @@
     "coveralls": "react-scripts test --ci --coverage --watchAll=false && cat ./coverage/lcov.info | coveralls",
     "eject": "react-scripts eject",
     "postinstall": "patch-package",
-    "start": "react-scripts start",
+    "start": "PORT=11001 react-scripts start",
     "test": "react-scripts test"
   },
   "husky": {
